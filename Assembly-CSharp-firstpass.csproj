@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F123E57C-FFA6-ED29-D1E1-EF0B7C5F94E9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+	<LangVersion>default</LangVersion>
+</PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VIDEO;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+	<LangVersion>default</LangVersion>
+</PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+	<LangVersion>default</LangVersion>
+</PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\Displace.cs" />
+     <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
+     <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
+     <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\PlanarReflection.cs" />
+     <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
+     <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
+     <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\Water1.cs" />
+     <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit_Iso\Water-Natural_Texture.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Third Party\LowPolyWater\Shaders\LowPolyWater.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW5_T_D_R.shader" />
+     <None Include="Assets\Third Party\RealisticWater\Shaders\WaterPC.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Old\EasyWater2_CTD.shader" />
+     <None Include="Assets\Third Party\Water Shader Manga Style\read me.txt" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Old\EasyWater7_2TDR.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-Natural_Texture.shader" />
+     <None Include="Assets\Third Party\WaterPlusShader\Shaders\WaterPlusInclude.cginc" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Third Party\WaterLite\Water\Shaders\Water-LQ - NoAlpha.shader" />
+     <None Include="Assets\Resources\MagicWater\Shaders\Water8.shader" />
+     <None Include="Assets\Resources\MagicWater\Shaders\Water12.shader" />
+     <None Include="Assets\Third Party\UtopiaWorx\Shaders\HardWater\Shaders\HardWater.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW13_TT_B_D_O_R.shader" />
+     <None Include="Assets\Resources\MagicWater\Shaders\Water5.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW7_TT_D_R.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Old\EasyWaterFastest.shader" />
+     <None Include="Assets\Third Party\StylizedWater\Shaders\StylizedWater_mobile_advanced.shader" />
+     <None Include="Assets\Third Party\FakeWater\FakeWaterTransparent.shader" />
+     <None Include="Assets\Third Party\RealisticWater\Shaders\WaterLighting.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-Color_Foam.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Third Party\Water Flow\Readme.txt" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW4_C_TT_D.shader" />
+     <None Include="Assets\Third Party\Water Shaders\Caustic Diffuse Bump.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit_Iso\Water-TextureNormal_ColorFoam.shader" />
+     <None Include="Assets\Resources\MagicWater\Shaders\Reflection.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-Texture_Minimal.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW8_C_TT_D_R.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW0_TT_O.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\Debug\Water-Debug_Depth.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW11_TT_B_D_FO.shader" />
+     <None Include="Assets\Third Party\MobileWater\Shaders\MobileWater.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-Texture_Reflect.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-Natural_Foam.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Old\EasyWater0_2TO.shader" />
+     <None Include="Assets\Resources\MagicWater\Shaders\Refraction.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\Debug\Water-Debug_Refraction.shader" />
+     <None Include="Assets\Third Party\WaterLite\Water\Shaders\Water-HQ-Tess.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\WaterShaderHelper.cginc" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Old\EasyWater13_2TBDOR.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit_Iso\Water-TextureNormal_Foam.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Third Party\Cartoon Water Shaders\Cartoon Water Simple.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Old\EasyWater9_2TDRO.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-Color_Minimal.shader" />
+     <None Include="Assets\Third Party\@isaackarth\Shaders\OceanSand.shader" />
+     <None Include="Assets\Third Party\WaterLite\Water\Shaders\Water-HQ-Tess - NoAlpha.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\ReadMe.txt" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-Color_Reflect.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit\Water-TextureNormal_ColorFoam.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW12_C_TT_B_D_FO.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW14_C_TT_B_D_FO_R.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\Debug\Water-Debug_Specular.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-TextureNormal_Full.shader" />
+     <None Include="Assets\Resources\MagicWater\Shaders\Water10.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\Debug\Water-Debug_ViewDir.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-TextureNormal_Minimal.shader" />
+     <None Include="Assets\Third Party\Cartoon Water Shaders\Cartoon Water.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW3_TT_D.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit_Iso\Water-Natural_Foam.shader" />
+     <None Include="Assets\Third Party\StylizedWater\Changelog.txt" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Third Party\Water Flow\Shaders\Water Diffuse.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW2_C_T_D.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit\Water-TextureNormal_Reflect.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\Debug\WaterShaderHelper.cginc" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit\Water-Natural_Full.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Third Party\Water Flow\Shaders\Water Heightmap.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit\Water-Color_Foam.shader" />
+     <None Include="Assets\radiator\shaders\DecentWater.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW1_T_D.shader" />
+     <None Include="Assets\ColorPicker\license.txt" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Bottom\Material\TI Minimalistic Water Bottom.shader" />
+     <None Include="Assets\Scripts\First Person Drifter Controller\info.txt" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\Debug\Water-Debug_HeightMap.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit\Water-TextureNormal_Minimal.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit\Water-TextureNormal_Full.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\Debug\Water-DebugLit_Specular.shader" />
+     <None Include="Assets\HeightMapGeneratorPackage\ReadMe.txt" />
+     <None Include="Assets\Third Party\Water Flow FREE\Shaders\Water Flow FREE Simple.shader" />
+     <None Include="Assets\Third Party\WaterPlusShader\Terrains\Terrain_3Textures.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Water\Material\TI Minimalistic Water.shader" />
+     <None Include="Assets\Third Party\Water Flow FREE\Readme.txt" />
+     <None Include="Assets\Resources\MagicWater\Shaders\Water1.shader" />
+     <None Include="Assets\Third Party\WaterLite\Water\Shaders\Water-HQ.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Resources\MagicWater\Shaders\Water7.shader" />
+     <None Include="Assets\Third Party\WaterLite\Water\readme.txt" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit_Iso\Water-Natural_Full.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\Debug\Water-Debug_NormalDir.shader" />
+     <None Include="Assets\Third Party\Water Flow\Shaders\Water Simple.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit\Water-Color_Reflect.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW10_C_TT_D_R_O.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Old\EasyWater14_C2TBDOR360.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW10_C_TT_D_R_FO.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Old\EasyWater5_TDR.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-TextureNormal_ColorFoam.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit_Iso\Water-Color_Reflect.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit_Iso\Water-Natural_Reflection.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Third Party\AQUAS-Lite\Shaders\AQUAS-Lite.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Third Party\Water Shader Manga Style\Shader\WaterShader_tesselated.shader" />
+     <None Include="Assets\Third Party\@isaackarth\Shaders\OceanWater 1.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit_Iso\Water-Natural_Normal.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit\Water-Natural_Normal.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit\WaterShaderHelper.cginc" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Resources\MagicWater\Shaders\Water13.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW6_C_T_D_R.shader" />
+     <None Include="Assets\Third Party\RealisticWater\Shaders\WaterMobile.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-TextureNormal_Foam.shader" />
+     <None Include="Assets\Third Party\Water Shader Manga Style\Shader\Terrain_Land.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Old\EasyWater6_CTDR.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro2.shader" />
+     <None Include="Assets\Resources\MagicWater\Shaders\Water0.shader" />
+     <None Include="Assets\Third Party\AQUAS-Lite\Readme.txt" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit\Water-Natural_Foam.shader" />
+     <None Include="Assets\Resources\MagicWater\Shaders\Water6.shader" />
+     <None Include="Assets\Resources\MagicWater\Shaders\Water2.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-TextureNormal_Reflect.shader" />
+     <None Include="Assets\Third Party\RealisticWater\Shaders\WaterMobileWithRipples.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit\Water-TextureNormal_Foam.shader" />
+     <None Include="Assets\Resources\MagicWater\Shaders\Water14.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Third Party\CruduxCruo\Shaders\SimpleWater.shader" />
+     <None Include="Assets\Third Party\Water Shaders\Advanced Water.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-Natural_Minimal.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Old\EasyWater1_TD.shader" />
+     <None Include="Assets\Third Party\Procedure Water\Procedure Water\Material\Shaders\Procedure Water.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-Natural_Full.shader" />
+     <None Include="Assets\Third Party\RealisticWater\Shaders\CausticPC.shader" />
+     <None Include="Assets\Resources\MagicWater\Shaders\Water9.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit_Iso\Water-Color_Minimal.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Old\EasyWater11_2TBDO.shader" />
+     <None Include="Assets\Third Party\RealisticWater\Shaders\RipplesCausticPC.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Old\EasyWater12_C2TBDO.shader" />
+     <None Include="Assets\Third Party\Procedure Water\readme.txt" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Third Party\RealisticWater\Shaders\CausticMobile.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-Natural_Reflection.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Third Party\Water Shaders\Caustic Simple.shader" />
+     <None Include="Assets\Third Party\UtopiaWorx\Shaders\HardWater\Shaders\HardWaterMobile.shader" />
+     <None Include="Assets\Third Party\StylizedWater\Shaders\StylizedWater_mobile_basic.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Third Party\StylizedWater\Shaders\StylizedWater_desktop.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\Debug\Water-Debug_DepthAlpha.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit\Water-Color_Minimal.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit_Iso\Water-TextureNormal_Minimal.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Old\EasyWater3_2TD.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW14_C_TT_B_D_O_R.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit\Water-Color_Full.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW13_TT_B_D_FO_R.shader" />
+     <None Include="Assets\Third Party\Water Shaders\Water Ocean beta foam.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\HeightMapGeneratorPackage\Shader\DepthShaderEye.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Third Party\WaterLite\Water\Shaders\Water-LQ.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Third Party\EasyWater\UnderWater\UnderWater_1.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit_Iso\Water-Color_Foam.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-Texture_ColorFoam.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Third Party\molleindustria\lowPolyWater.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\readme.txt" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit_Iso\Water-TextureNormal_Full.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW12_C_TT_B_D_O.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW9_TT_D_R_O.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Third Party\@isaackarth\Shaders\Triplanar.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Third Party\@isaackarth\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Third Party\FakeWater\FakeWaterOpaque.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Third Party\UtopiaWorx\Shaders\HardWater\Shaders\HardWaterSingleSided.shader" />
+     <None Include="Assets\Third Party\@isaackarth\Shaders\OceanWater.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Third Party\StylizedWater\Shaders\StylizedWater_desktop_tesselation.shader" />
+     <None Include="Assets\Third Party\WaterLite\Water\Shaders\Skybox\skybox cubed.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-Texture_Foam.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\HeightMapGeneratorPackage\Shader\DepthShader.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit\Water-Natural_Texture.shader" />
+     <None Include="Assets\Third Party\WaterLite\Water\Shaders\Water-MQ.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Resources\MagicWater\Shaders\Water3.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Resources\MagicWater\Shaders\Water11.shader" />
+     <None Include="Assets\Resources\MagicWater\Shaders\Water4.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Third Party\WaterLite\Water\Shaders\Underwater.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Third Party\MobileWater\ReadMe.txt" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit_Iso\Water-Color_Full.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-Natural_Normal.shader" />
+     <None Include="Assets\Third Party\Rain GS\Water shader\Water.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit\Water-Natural_Reflection.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit_Iso\WaterShaderHelper.cginc" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-Texture_Full.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\Debug\Water-Debug_Reflection.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Old\EasyWater4_C2TD.shader" />
+     <None Include="Assets\Third Party\WaterLite\Water\Shaders\Water-HQ - NoAlpha.shader" />
+     <None Include="Assets\Third Party\WaterPlusShader\Shaders\WaterPlus_Mobile_Lite.shader" />
+     <None Include="Assets\Third Party\EasyWater\How_To_Choose.txt" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\DirectionalLit_Iso\Water-TextureNormal_Reflect.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Third Party\EasyWater\UnderWater\Caustics.shader" />
+     <None Include="Assets\Third Party\RealisticWater\Shaders\DistortionParticlesCutout.shader" />
+     <None Include="Assets\Third Party\Robert Yang\DecentWater.shader" />
+     <None Include="Assets\Third Party\Water Shader Manga Style\Shader\WaterShader_notesselation.shader" />
+     <None Include="Assets\Third Party\WaterShaderPackage\Shader\WaterShader\FakeLit\Water-Color_Full.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Old\EasyWater14_C2TBDOR.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Third Party\WaterPlusShader\Shaders\WaterPlus_Desktop_Lite.shader" />
+     <None Include="Assets\Resources\MagicWater\Shaders\Water15.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Old\EasyWater10_C2TDRO.shader" />
+     <None Include="Assets\Third Party\WaterLite\Water\Shaders\Water-MQ - NoAlpha.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Old\EasyWater8_C2TDR.shader" />
+     <None Include="Assets\Third Party\EasyWater\Shaders_Cube\EW11_TT_B_D_O.shader" />
+     <None Include="Assets\Third Party\Minimalistic Water\Demo res\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="MagicWater">
+ <HintPath>/Users/pippinbarr/Dropbox/Develop/Unity/v-r-3/Assets/Plugins/MagicWater/MagicWater.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

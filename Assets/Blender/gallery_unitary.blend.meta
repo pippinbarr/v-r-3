@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 27eb3853eccb44b5dbde893f84b80c6a
+timeCreated: 1486060470
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Above_windows
+    100004: Brick_side_pieces
+    100006: Ceiling
+    100008: Centeral_vertical_supports
+    100010: Cross_beams
+    100012: Cube
+    100014: Cube_001
+    100016: Floor
+    100018: Front-back_top_piece
+    100020: Front_and_back_walls
+    100022: Long_ceiling_braces
+    100024: Window_struts
+    100026: Windows_Left
+    100028: Windows_Right
+    400000: //RootNode
+    400002: Above_windows
+    400004: Brick_side_pieces
+    400006: Ceiling
+    400008: Centeral_vertical_supports
+    400010: Cross_beams
+    400012: Cube
+    400014: Cube_001
+    400016: Floor
+    400018: Front-back_top_piece
+    400020: Front_and_back_walls
+    400022: Long_ceiling_braces
+    400024: Window_struts
+    400026: Windows_Left
+    400028: Windows_Right
+    2300000: //RootNode
+    2300002: Above_windows
+    2300004: Brick_side_pieces
+    2300006: Ceiling
+    2300008: Centeral_vertical_supports
+    2300010: Cross_beams
+    2300012: Cube
+    2300014: Cube_001
+    2300016: Floor
+    2300018: Front-back_top_piece
+    2300020: Front_and_back_walls
+    2300022: Long_ceiling_braces
+    2300024: Window_struts
+    2300026: Windows_Left
+    2300028: Windows_Right
+    3300000: //RootNode
+    3300002: Above_windows
+    3300004: Brick_side_pieces
+    3300006: Ceiling
+    3300008: Centeral_vertical_supports
+    3300010: Cross_beams
+    3300012: Cube
+    3300014: Cube_001
+    3300016: Floor
+    3300018: Front-back_top_piece
+    3300020: Front_and_back_walls
+    3300022: Long_ceiling_braces
+    3300024: Window_struts
+    3300026: Windows_Left
+    3300028: Windows_Right
+    4300000: Windows_Left
+    4300002: Window_struts
+    4300004: Windows_Right
+    4300006: Cube_001
+    4300008: Cube
+    4300010: Floor
+    4300012: Ceiling
+    4300014: Front_and_back_walls
+    4300016: Brick_side_pieces
+    4300018: Front-back_top_piece
+    4300020: Cross_beams
+    4300022: Centeral_vertical_supports
+    4300024: Above_windows
+    4300026: Long_ceiling_braces
+    6400000: Above_windows
+    6400002: Brick_side_pieces
+    6400004: Ceiling
+    6400006: Centeral_vertical_supports
+    6400008: Cross_beams
+    6400010: Cube
+    6400012: Cube_001
+    6400014: Floor
+    6400016: Front-back_top_piece
+    6400018: Front_and_back_walls
+    6400020: Long_ceiling_braces
+    6400022: Window_struts
+    6400024: Windows_Left
+    6400026: Windows_Right
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
