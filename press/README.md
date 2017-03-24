@@ -1,4 +1,4 @@
-# *SNAKISMS* Press Kit
+# *v r 3* Press Kit
 
 #### Download v r 3
 * [v r 3 for Mac OS X](https://github.com/pippinbarr/v-r-3/releases/download/v1.0/vr3-mac.zip)
