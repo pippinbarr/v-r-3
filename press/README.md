@@ -1,8 +1,8 @@
 # *SNAKISMS* Press Kit
 
 #### Download v r 3
-* [v r 3 for Mac OS X](http://www.pippinbarr.com/games/vr3/downloads/vr3-mac.zip)
-* [v r 3 for Windows](http://www.pippinbarr.com/games/vr3/downloads/vr3-windows.zip)
+* [v r 3 for Mac OS X](https://github.com/pippinbarr/v-r-3/releases/download/v1.0/vr3-mac.zip)
+* [v r 3 for Windows](https://github.com/pippinbarr/v-r-3/releases/download/v1.0/vr3-windows.zip)
 
 
 ## The basics
