@@ -15,11 +15,15 @@
 
 ## Description
 
-Water! Water! Everywhere!
+Water! Water! Everywhere! All kinds! Best Water! Decent Water! Realistic Water! Manga Water! Mobile Water! Magic Water! But not a drop to drink!
 
 ## History
 
-*v r 3* ...
+*v r 3* came about thanks to a student project during a class at Concordia University. A student had used Unity's free "professional water" shader to display water in their game and during a conversation we both admired the impressive reflections and generally "high tech" feeling of the water. When I found out the water was literally referred to in the engine as "pro water" I found this too funny not to base a game around.
+
+As part of the Speculative Play project I'm a part of I became interested in the idea of a game which is entirely about tech fetishism. Water is perhaps the archetypal technology we use to assess how "good" a game engine or game is in terms of realism, a kind of benchmark. I liked the idea of a speculative future in which, rather than playing a game with water in it, people would choose to simply contemplate the water itself as an activity. Thus *v r 3* represents a museum/gallery experience where the audience pays attention to water.
+
+There's a huge amount to say about this, but the story is really told in the blog posts I've written about the game, linked below.
 
 
 
@@ -32,6 +36,10 @@ Water! Water! Everywhere!
 ## Features
 
 * Water!
+* Water!
+* More water!
+* Another water!
+* Care for some water?!
 
 ## Videos
 
