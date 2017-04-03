@@ -55,6 +55,7 @@ There's a huge amount to say about this, but the story is really told in the blo
 * chiconuclear, [v r 3: El museo del agua](http://www.anaitgames.com/articulos/v-r-3-pippin-barr). *Anait Games*, 30 March 2017.
 * Pierre Corbinais, [v r 3](http://oujevipo.fr/non-classe/5988-v-r-3/). *L'Oujevipo*, 30 March 2017.
 * Jack de Quidt, [Swim Through a Museum of Water in Pippin Barr's 'v r 3'](https://waypoint.vice.com/en_us/article/swim-through-a-museum-of-water-in-pippin-barrs-v-r-3). *Waypoint*, 31 March 2017.
+* Philippa Warr, [v r 3: Pippin Barr’s exhibition of digital water](https://www.rockpapershotgun.com/2017/04/03/v-r-3-digital-water/). *Rock, Paper, Shotgun*, 3 April 2017.
 
 ## Additional Links
 
