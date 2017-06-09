@@ -57,6 +57,9 @@ There's a huge amount to say about this, but the story is really told in the blo
 * Jack de Quidt, [Swim Through a Museum of Water in Pippin Barr's 'v r 3'](https://waypoint.vice.com/en_us/article/swim-through-a-museum-of-water-in-pippin-barrs-v-r-3). *Waypoint*, 31 March 2017.
 * Boomsai, [v r 3 es lo nuevo de Pippin Barr, un museo de agua virtual](http://boomsai.com/v-r-3-lo-nuevo-pippin-barr-museo-agua-virtual). *Boomsai*, 1 April 2017
 * Philippa Warr, [v r 3: Pippin Barr’s exhibition of digital water](https://www.rockpapershotgun.com/2017/04/03/v-r-3-digital-water/). *Rock, Paper, Shotgun*, 3 April 2017.
+* Allison Meier, [Explore a Virtual Museum of Digital Water](https://hyperallergic.com/370712/virtual-museum-of-digital-water/). *Hyperallergic*, 11 April 2017.
+* Matteo Bittanti, [Art Game: Pippin Barr's V R 3](http://www.gamescenes.org/2017/04/art-game-pippin-barrs-v-r-3-2017.html). *Gamescenes*, 12 April 2017.
+* Julia Buntaine, [REVIEW: "v r 3," a virtual museum of water art](http://www.sciartmagazine.com/blog/review-v-r-3-a-virtual-museum-of-water-art). *SciArt Magazine*, 14 April 2017.
 
 
 ## Additional Links
