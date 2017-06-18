@@ -1,0 +1,6 @@
+/*
+ Nielsen SDK package v5.1.0.17 
+ (c) 2017 The Nielsen Company 
+*/
+/* PLLOG build v5.1.0.2*/
+window.NOLCMB.registerLib("PLLOG",function(o){"use strict";function n(n){if(n){var e=String(n).toUpperCase();if(c.hasOwnProperty(e))for(var r in c[e]){var i=String(r).toLowerCase();o._listeners.addListener(i,c[e][i])}}}function e(o){return o&&o.target&&o.target.hasOwnProperty("msg")?o.target.msg:""}function r(o){window.console&&console.info("Nielsen Log: Info - ",e(o))}function i(o){window.console&&console.log("Nielsen Log: Debug - ",e(o))}function s(o){window.console&&console.log("Nielsen Log: Logger - ",e(o))}function t(o){window.console&&console.warn("Nielsen Log: Warn - ",e(o))}function g(o){window.console&&console.error("Nielsen Log: Error - ",e(o))}var a=o.PLLOG=o.PLLOG||{},l=window.NOLCMB,f="5.1.0",w="2",L=o.getBaseBuildVer?o.getBaseBuildVer()+w:f+_localBuildVer,c={INFO:{info:r},DEBUG:{info:r,debug:i,warn:t,error:g},WARN:{info:r,warn:t},ERROR:{info:r,error:g},CONSOLE:{info:r},TRUE:{info:r},LOGGER:{logger:s}};return a.init=function(o){if(o&&o.getConfigParams){var e=o.getConfigParams();e.hasOwnProperty("ggParams")&&e.ggParams.hasOwnProperty("nol_sdkDebug")&&n(e.ggParams.nol_sdkDebug)}},a.built||(a.built=!0,a.BUILDVERSION=L,o.bindPlayers(a,"PLLOG")),a});
