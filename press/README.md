@@ -60,7 +60,7 @@ There's a huge amount to say about this, but the story is really told in the blo
 * Allison Meier, [Explore a Virtual Museum of Digital Water](https://hyperallergic.com/370712/virtual-museum-of-digital-water/). *Hyperallergic*, 11 April 2017.
 * Matteo Bittanti, [Art Game: Pippin Barr's V R 3](http://www.gamescenes.org/2017/04/art-game-pippin-barrs-v-r-3-2017.html). *Gamescenes*, 12 April 2017.
 * Julia Buntaine, [REVIEW: "v r 3," a virtual museum of water art](http://www.sciartmagazine.com/blog/review-v-r-3-a-virtual-museum-of-water-art). *SciArt Magazine*, 14 April 2017.
-
+* Centro de Cultura Digital, [The Wrong, la tercera edición de la bienal de arte digital](http://editorial.centroculturadigital.mx/notacorta/the-wrong-la-tercera-edicion-de-la-bienal-de-arte-digital). Centro de Cultura Digital Website, 14 November 2017.
 
 ## Additional Links
 
