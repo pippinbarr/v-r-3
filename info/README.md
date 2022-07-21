@@ -2,9 +2,7 @@
 
 ![](images/v-r-3-banner.png)
 
-# Download
-* [*v r 3* for Mac OS X](https://github.com/pippinbarr/v-r-3/releases/tag/mac)
-* [*v r 3* for Windows](https://github.com/pippinbarr/v-r-3/releases/tag/windows)
+# Download for [Mac](https://github.com/pippinbarr/v-r-3/releases/tag/mac) or [Windows](https://github.com/pippinbarr/v-r-3/releases/tag/windows)
 
 ## Description
 *Water! Water! Everywhere! All kinds! Best Water! Decent Water! Realistic Water! Manga Water! Mobile Water! Magic Water! But not a drop to drink!*
